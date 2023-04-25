@@ -56,15 +56,56 @@
 		1863D4D929F7A8200092876C /* genamet-coding-task */ = {
 			isa = PBXGroup;
 			children = (
+				1863D4F229F7A8F40092876C /* View Model */,
+				1863D4F129F7A8EE0092876C /* View */,
+				1863D4F029F7A8E10092876C /* Controller */,
+				1863D4EE29F7A8A80092876C /* Base.lproj */,
+				1863D4EF29F7A8B40092876C /* Model */,
 				1863D4DA29F7A8200092876C /* AppDelegate.swift */,
 				1863D4DC29F7A8200092876C /* SceneDelegate.swift */,
 				1863D4DE29F7A8200092876C /* ViewController.swift */,
-				1863D4E029F7A8200092876C /* Main.storyboard */,
 				1863D4E329F7A8210092876C /* Assets.xcassets */,
-				1863D4E529F7A8210092876C /* LaunchScreen.storyboard */,
 				1863D4E829F7A8210092876C /* Info.plist */,
 			);
 			path = "genamet-coding-task";
+			sourceTree = "<group>";
+		};
+		1863D4EE29F7A8A80092876C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1863D4E029F7A8200092876C /* Main.storyboard */,
+				1863D4E529F7A8210092876C /* LaunchScreen.storyboard */,
+			);
+			name = Base.lproj;
+			path = Model/Base.lproj;
+			sourceTree = "<group>";
+		};
+		1863D4EF29F7A8B40092876C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1863D4F029F7A8E10092876C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1863D4F129F7A8EE0092876C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1863D4F229F7A8F40092876C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
