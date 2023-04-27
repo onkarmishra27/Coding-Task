@@ -15,11 +15,13 @@ class SplashViewController: UIViewController {
             
             // Add a delay of 5 seconds
             DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                
                 // Push the HomeViewController onto the navigation stack
-                let homeVC = HomeViewController()
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                if let homeVC = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController {
                 self.navigationController?.pushViewController(homeVC, animated: true)
-            }
+             }
         }
-
+    }
 }
 

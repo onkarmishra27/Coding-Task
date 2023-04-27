@@ -47,20 +47,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-cX-xzP">
-                                <rect key="frame" x="147" y="402" width="99" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="t7p-SC-cNy">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <sections/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="q5w-sb-DJf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="RGl-cX-xzP" firstAttribute="centerX" secondItem="YWC-zu-7SX" secondAttribute="centerX" id="195-Mr-9Yu"/>
-                            <constraint firstItem="RGl-cX-xzP" firstAttribute="centerY" secondItem="YWC-zu-7SX" secondAttribute="centerY" id="36N-Ze-bpF"/>
+                            <constraint firstItem="q5w-sb-DJf" firstAttribute="bottom" secondItem="t7p-SC-cNy" secondAttribute="bottom" id="ON0-n5-IJK"/>
+                            <constraint firstItem="q5w-sb-DJf" firstAttribute="trailing" secondItem="t7p-SC-cNy" secondAttribute="trailing" id="Qza-g4-VZp"/>
+                            <constraint firstItem="t7p-SC-cNy" firstAttribute="leading" secondItem="q5w-sb-DJf" secondAttribute="leading" id="WzW-uk-IHr"/>
+                            <constraint firstItem="t7p-SC-cNy" firstAttribute="top" secondItem="q5w-sb-DJf" secondAttribute="top" id="wl4-AB-4DB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="t7p-SC-cNy" id="aPb-9o-cz0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yey-z7-ZG8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
