@@ -3,37 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		182D166F29F8F44200539DA2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D166D29F8F44200539DA2 /* TableViewCell.swift */; };
-		182D167029F8F44200539DA2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182D166E29F8F44200539DA2 /* TableViewCell.xib */; };
-		182D167229F8F75200539DA2 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D167129F8F75200539DA2 /* CheckBox.swift */; };
+		182D166F29F8F44200539DA2 /* AuthorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D166D29F8F44200539DA2 /* AuthorCell.swift */; };
+		182D167029F8F44200539DA2 /* AuthorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182D166E29F8F44200539DA2 /* AuthorCell.xib */; };
 		1863D4DB29F7A8200092876C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863D4DA29F7A8200092876C /* AppDelegate.swift */; };
 		1863D4DD29F7A8200092876C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863D4DC29F7A8200092876C /* SceneDelegate.swift */; };
-		1863D4DF29F7A8200092876C /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863D4DE29F7A8200092876C /* SplashVC.swift */; };
+		1863D4DF29F7A8200092876C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863D4DE29F7A8200092876C /* SplashViewController.swift */; };
 		1863D4E229F7A8200092876C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1863D4E029F7A8200092876C /* Main.storyboard */; };
 		1863D4E429F7A8210092876C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1863D4E329F7A8210092876C /* Assets.xcassets */; };
 		1863D4E729F7A8210092876C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1863D4E529F7A8210092876C /* LaunchScreen.storyboard */; };
 		1863D4F629F7B4B60092876C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863D4F529F7B4B60092876C /* HomeViewController.swift */; };
-		18E7521129F930ED009341B6 /* TableViewDataCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7521029F930ED009341B6 /* TableViewDataCellModel.swift */; };
+		186791FD29FA48D200A5AAAB /* AuthorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186791FC29FA48D200A5AAAB /* AuthorViewModel.swift */; };
+		1867920029FA497200A5AAAB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186791FF29FA497200A5AAAB /* NetworkService.swift */; };
+		1867920329FA499900A5AAAB /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867920229FA499900A5AAAB /* NetworkRequest.swift */; };
+		1867920629FA49BD00A5AAAB /* AurthorDataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867920529FA49BD00A5AAAB /* AurthorDataRequest.swift */; };
+		1867920929FA49D800A5AAAB /* APIErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867920829FA49D800A5AAAB /* APIErrorResponse.swift */; };
+		18E7521129F930ED009341B6 /* AuthorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7521029F930ED009341B6 /* AuthorModels.swift */; };
+		775049EBA0DC1B36981D6457 /* Pods_genamet_coding_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AAED852025E9D3743D2197 /* Pods_genamet_coding_task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		182D166D29F8F44200539DA2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		182D166E29F8F44200539DA2 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		182D167129F8F75200539DA2 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		1565C561712222620DB8DC70 /* Pods-genamet-coding-task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-genamet-coding-task.release.xcconfig"; path = "Target Support Files/Pods-genamet-coding-task/Pods-genamet-coding-task.release.xcconfig"; sourceTree = "<group>"; };
+		182D166D29F8F44200539DA2 /* AuthorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorCell.swift; sourceTree = "<group>"; };
+		182D166E29F8F44200539DA2 /* AuthorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthorCell.xib; sourceTree = "<group>"; };
 		1863D4D729F7A8200092876C /* genamet-coding-task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "genamet-coding-task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1863D4DA29F7A8200092876C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1863D4DC29F7A8200092876C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1863D4DE29F7A8200092876C /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		1863D4DE29F7A8200092876C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		1863D4E129F7A8200092876C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1863D4E329F7A8210092876C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1863D4E629F7A8210092876C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1863D4E829F7A8210092876C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1863D4F529F7B4B60092876C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		18E7521029F930ED009341B6 /* TableViewDataCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataCellModel.swift; sourceTree = "<group>"; };
+		186791FC29FA48D200A5AAAB /* AuthorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewModel.swift; sourceTree = "<group>"; };
+		186791FF29FA497200A5AAAB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1867920229FA499900A5AAAB /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		1867920529FA49BD00A5AAAB /* AurthorDataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AurthorDataRequest.swift; sourceTree = "<group>"; };
+		1867920829FA49D800A5AAAB /* APIErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorResponse.swift; sourceTree = "<group>"; };
+		18E7521029F930ED009341B6 /* AuthorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorModels.swift; sourceTree = "<group>"; };
+		1B1677C4142875B4D9068A41 /* Pods-genamet-coding-task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-genamet-coding-task.debug.xcconfig"; path = "Target Support Files/Pods-genamet-coding-task/Pods-genamet-coding-task.debug.xcconfig"; sourceTree = "<group>"; };
+		56AAED852025E9D3743D2197 /* Pods_genamet_coding_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_genamet_coding_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775049EBA0DC1B36981D6457 /* Pods_genamet_coding_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +65,8 @@
 			children = (
 				1863D4D929F7A8200092876C /* genamet-coding-task */,
 				1863D4D829F7A8200092876C /* Products */,
+				E717349A3F3AFFB4FD48DA5A /* Pods */,
+				4A5ABEADA38E7A028A078449 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +81,7 @@
 		1863D4D929F7A8200092876C /* genamet-coding-task */ = {
 			isa = PBXGroup;
 			children = (
+				186791FE29FA494300A5AAAB /* Service */,
 				1863D4F229F7A8F40092876C /* View Model */,
 				1863D4F129F7A8EE0092876C /* View */,
 				1863D4F029F7A8E10092876C /* Controller */,
@@ -92,7 +108,7 @@
 		1863D4EF29F7A8B40092876C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18E7521029F930ED009341B6 /* TableViewDataCellModel.swift */,
+				18E7521029F930ED009341B6 /* AuthorModels.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,7 +116,7 @@
 		1863D4F029F7A8E10092876C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1863D4DE29F7A8200092876C /* SplashVC.swift */,
+				1863D4DE29F7A8200092876C /* SplashViewController.swift */,
 				1863D4F529F7B4B60092876C /* HomeViewController.swift */,
 			);
 			path = Controller;
@@ -109,9 +125,8 @@
 		1863D4F129F7A8EE0092876C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				182D166D29F8F44200539DA2 /* TableViewCell.swift */,
-				182D166E29F8F44200539DA2 /* TableViewCell.xib */,
-				182D167129F8F75200539DA2 /* CheckBox.swift */,
+				182D166D29F8F44200539DA2 /* AuthorCell.swift */,
+				182D166E29F8F44200539DA2 /* AuthorCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,8 +134,53 @@
 		1863D4F229F7A8F40092876C /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				186791FC29FA48D200A5AAAB /* AuthorViewModel.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		186791FE29FA494300A5AAAB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				186791FF29FA497200A5AAAB /* NetworkService.swift */,
+				1867920129FA497800A5AAAB /* Requests */,
+				1867920729FA49C200A5AAAB /* Error */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1867920129FA497800A5AAAB /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				1867920229FA499900A5AAAB /* NetworkRequest.swift */,
+				1867920529FA49BD00A5AAAB /* AurthorDataRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		1867920729FA49C200A5AAAB /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				1867920829FA49D800A5AAAB /* APIErrorResponse.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		4A5ABEADA38E7A028A078449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56AAED852025E9D3743D2197 /* Pods_genamet_coding_task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E717349A3F3AFFB4FD48DA5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B1677C4142875B4D9068A41 /* Pods-genamet-coding-task.debug.xcconfig */,
+				1565C561712222620DB8DC70 /* Pods-genamet-coding-task.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1863D4EB29F7A8210092876C /* Build configuration list for PBXNativeTarget "genamet-coding-task" */;
 			buildPhases = (
+				962E55347BB909F0D27A51F8 /* [CP] Check Pods Manifest.lock */,
 				1863D4D329F7A8200092876C /* Sources */,
 				1863D4D429F7A8200092876C /* Frameworks */,
 				1863D4D529F7A8200092876C /* Resources */,
+				A1A7334646536D362B5149D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,7 +221,7 @@
 				};
 			};
 			buildConfigurationList = 1863D4D229F7A8200092876C /* Build configuration list for PBXProject "genamet-coding-task" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -182,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1863D4E729F7A8210092876C /* LaunchScreen.storyboard in Resources */,
-				182D167029F8F44200539DA2 /* TableViewCell.xib in Resources */,
+				182D167029F8F44200539DA2 /* AuthorCell.xib in Resources */,
 				1863D4E429F7A8210092876C /* Assets.xcassets in Resources */,
 				1863D4E229F7A8200092876C /* Main.storyboard in Resources */,
 			);
@@ -190,18 +252,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		962E55347BB909F0D27A51F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-genamet-coding-task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A7334646536D362B5149D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-genamet-coding-task/Pods-genamet-coding-task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-genamet-coding-task/Pods-genamet-coding-task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-genamet-coding-task/Pods-genamet-coding-task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1863D4D329F7A8200092876C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182D166F29F8F44200539DA2 /* TableViewCell.swift in Sources */,
-				1863D4DF29F7A8200092876C /* SplashVC.swift in Sources */,
-				182D167229F8F75200539DA2 /* CheckBox.swift in Sources */,
+				182D166F29F8F44200539DA2 /* AuthorCell.swift in Sources */,
+				1863D4DF29F7A8200092876C /* SplashViewController.swift in Sources */,
+				1867920029FA497200A5AAAB /* NetworkService.swift in Sources */,
 				1863D4DB29F7A8200092876C /* AppDelegate.swift in Sources */,
 				1863D4DD29F7A8200092876C /* SceneDelegate.swift in Sources */,
-				18E7521129F930ED009341B6 /* TableViewDataCellModel.swift in Sources */,
+				1867920929FA49D800A5AAAB /* APIErrorResponse.swift in Sources */,
+				18E7521129F930ED009341B6 /* AuthorModels.swift in Sources */,
 				1863D4F629F7B4B60092876C /* HomeViewController.swift in Sources */,
+				1867920329FA499900A5AAAB /* NetworkRequest.swift in Sources */,
+				186791FD29FA48D200A5AAAB /* AuthorViewModel.swift in Sources */,
+				1867920629FA49BD00A5AAAB /* AurthorDataRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +451,7 @@
 		};
 		1863D4EC29F7A8210092876C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1677C4142875B4D9068A41 /* Pods-genamet-coding-task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -373,6 +482,7 @@
 		};
 		1863D4ED29F7A8210092876C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1565C561712222620DB8DC70 /* Pods-genamet-coding-task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

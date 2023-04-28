@@ -1,0 +1,6 @@
+framework module Pods_genamet_coding_task {
+  umbrella header "Pods-genamet-coding-task-umbrella.h"
+
+  export *
+  module * { export * }
+}

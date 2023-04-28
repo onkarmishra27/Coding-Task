@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B1E9F3FA-BCDD-4DF7-913F-69B9322D2E9C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBA43C1C-BF76-4F2F-8889-12C776D57A09"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "genamet-coding-task/View/TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "initializeSubviews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CBA43C1C-BF76-4F2F-8889-12C776D57A09 - 28f4722f0ac766c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "genamet_coding_task.TableViewCell.initializeSubviews() -&gt; ()"
+                  moduleName = "genamet-coding-task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nitesh/Downloads/genamet-coding-task/genamet-coding-task/View/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "647">
+               </Location>
+               <Location
+                  uuid = "CBA43C1C-BF76-4F2F-8889-12C776D57A09 - 28f4722f0ac766c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "genamet_coding_task.TableViewCell.initializeSubviews() -&gt; ()"
+                  moduleName = "genamet-coding-task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nitesh/Downloads/genamet-coding-task/genamet-coding-task/View/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "CBA43C1C-BF76-4F2F-8889-12C776D57A09 - 28f4722f0ac766c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "genamet_coding_task.TableViewCell.initializeSubviews() -&gt; ()"
+                  moduleName = "genamet-coding-task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nitesh/Downloads/genamet-coding-task/genamet-coding-task/View/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "737">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF59B1CE-1845-4754-AD90-696074547FF9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "genamet-coding-task/View/AuthorCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "onCheckMarkTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27557422-C05B-4A35-B60F-267871882199"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "genamet-coding-task/Controller/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "tableView(_:willDisplay:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
